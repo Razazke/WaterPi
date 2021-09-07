@@ -1,0 +1,17 @@
+{
+  "DaysToWater": [
+    {
+      "FirstDay": "Sunday",
+      "SecondDay": "Thursday"
+    }
+  ],
+
+  "TimeToWater": [
+    {
+      "Hour": 3,
+      "Minute": 0,
+      "AmPm": "AM",
+      "Length": 15
+    }
+  ]
+}
