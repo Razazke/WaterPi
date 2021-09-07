@@ -1,7 +1,4 @@
 import datetime
-import time #temp import for testing
-import json
-import os
 
 import WateringScheduler
 
@@ -37,7 +34,6 @@ def waterPlants():
     waterSchedule = WateringScheduler.WaterSchedule()
     while (not waterSchedule.isWateringTime()):
         print("Not time yet")
-        time.sleep(5)
     # if nozzle does not report back true, nozzle is broken somewhere.
     return 0
 
